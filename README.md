@@ -12,4 +12,5 @@ $ argocd login localhost:8080 --username $ADMIN_USER --password $ADMIN_PASSWD --
 $ argocd cluster add dev
 $ argocd cluster add qa
 $ argocd cluster add prod
+$ argocd repo add https://github.com/Miguelluengo/k8sdemos.git --username Miguelluengo --password <your-github-token>
 ```

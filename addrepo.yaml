@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Secret
+type: Opaque
+metadata:
+  name: argocd-private-repo
+  namespace: argocd
+  annotations:
+    managed-by: argocd.argoproj.io
+  labels:
+    argocd.argoproj.io/secret-type: repository
+stringData:
+  type: git
+  url: https://github.com/Miguelluengo/k8sdemos.git 
+  username: Miguelluengo
+  password: "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"
+
