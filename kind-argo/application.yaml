@@ -3,7 +3,7 @@ applications:
     namespace: argocd
     project: default
     source:
-      repoURL: git@github.com:Miguelluengo/k8sdemos.git
+      repoURL: https://github.com/Miguelluengo/k8sdemos.git
       targetRevision: HEAD
       path: kind-argo/manifests/cluster
       directory:
