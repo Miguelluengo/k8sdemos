@@ -3,9 +3,9 @@ applications:
     namespace: argocd
     project: default
     source:
-      repoURL: https://github.com/piomin/sample-terraform-kubernetes-argocd.git
+      repoURL: git@github.com:Miguelluengo/k8sdemos.git
       targetRevision: HEAD
-      path: argocd/manifests/cluster
+      path: kind-argo/manifests/cluster
       directory:
         recurse: true
     destination:
